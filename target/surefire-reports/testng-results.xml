@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62945" started-at="2021-10-17T19:03:07Z" finished-at="2021-10-17T19:04:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14134" started-at="2021-10-17T19:03:07Z" finished-at="2021-10-17T19:03:21Z">
+      <class name="Academy.Assignment.Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.Login@5e955596]" name="initialize" is-config="true" duration-ms="4394" started-at="2021-10-18T00:33:07Z" finished-at="2021-10-18T00:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="userLogin()[pri:0, instance:Academy.Assignment.Login@5e955596]" name="userLogin" duration-ms="9314" started-at="2021-10-18T00:33:12Z" finished-at="2021-10-18T00:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.Login@5e955596]" name="teardown" is-config="true" duration-ms="250" started-at="2021-10-18T00:33:21Z" finished-at="2021-10-18T00:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.Login -->
+    </test> <!-- Test -->
+    <test name="Searching Kudos" duration-ms="11224" started-at="2021-10-17T19:03:21Z" finished-at="2021-10-17T19:03:32Z">
+      <class name="Academy.Assignment.KudosSearch">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.KudosSearch@d6da883]" name="initialize" is-config="true" duration-ms="2271" started-at="2021-10-18T00:33:21Z" finished-at="2021-10-18T00:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="sendKudos()[pri:0, instance:Academy.Assignment.KudosSearch@d6da883]" name="sendKudos" duration-ms="8701" started-at="2021-10-18T00:33:24Z" finished-at="2021-10-18T00:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKudos -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.KudosSearch@d6da883]" name="teardown" is-config="true" duration-ms="252" started-at="2021-10-18T00:33:32Z" finished-at="2021-10-18T00:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.KudosSearch -->
+    </test> <!-- Searching Kudos -->
+    <test name="AppTest" duration-ms="0" started-at="2021-10-17T19:03:32Z" finished-at="2021-10-17T19:03:32Z">
+    </test> <!-- AppTest -->
+    <test name="Activity" duration-ms="7946" started-at="2021-10-17T19:03:32Z" finished-at="2021-10-17T19:03:40Z">
+      <class name="Academy.Assignment.Activity">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.Activity@62fdb4a6]" name="initialize" is-config="true" duration-ms="1957" started-at="2021-10-18T00:33:32Z" finished-at="2021-10-18T00:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ActivityPage()[pri:0, instance:Academy.Assignment.Activity@62fdb4a6]" name="ActivityPage" duration-ms="5836" started-at="2021-10-18T00:33:34Z" finished-at="2021-10-18T00:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActivityPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.Activity@62fdb4a6]" name="teardown" is-config="true" duration-ms="153" started-at="2021-10-18T00:33:40Z" finished-at="2021-10-18T00:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.Activity -->
+    </test> <!-- Activity -->
+    <test name="Recent Kudos Search" duration-ms="10581" started-at="2021-10-17T19:03:40Z" finished-at="2021-10-17T19:03:51Z">
+      <class name="Academy.Assignment.KudosRecent">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.KudosRecent@1176dcec]" name="initialize" is-config="true" duration-ms="1615" started-at="2021-10-18T00:33:40Z" finished-at="2021-10-18T00:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="sendKudos()[pri:0, instance:Academy.Assignment.KudosRecent@1176dcec]" name="sendKudos" duration-ms="8965" started-at="2021-10-18T00:33:42Z" finished-at="2021-10-18T00:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKudos -->
+      </class> <!-- Academy.Assignment.KudosRecent -->
+    </test> <!-- Recent Kudos Search -->
+    <test name="Send Kudos" duration-ms="18987" started-at="2021-10-17T19:03:51Z" finished-at="2021-10-17T19:04:10Z">
+      <class name="Academy.Assignment.SendKudos">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.SendKudos@25359ed8]" name="initialize" is-config="true" duration-ms="2563" started-at="2021-10-18T00:33:51Z" finished-at="2021-10-18T00:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="sendKudos()[pri:0, instance:Academy.Assignment.SendKudos@25359ed8]" name="sendKudos" duration-ms="16114" started-at="2021-10-18T00:33:54Z" finished-at="2021-10-18T00:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKudos -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.SendKudos@25359ed8]" name="teardown" is-config="true" duration-ms="309" started-at="2021-10-18T00:34:10Z" finished-at="2021-10-18T00:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.SendKudos -->
+    </test> <!-- Send Kudos -->
+  </suite> <!-- Suite -->
+</testng-results>
