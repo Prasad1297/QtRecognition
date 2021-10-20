@@ -29,10 +29,9 @@ public class base {
 			// execute in chrome driver
 
 		} else if (browserName.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", "C://geckodriver.exe");
 			driver = new FirefoxDriver();
-			// firefox code
-		} else if (browserName.equals("IE")) {
-//	IE code
+			
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
